@@ -1,6 +1,6 @@
-#git 配置
+# git 配置
 
-#####设置git的userName 和email
+##### 设置git的userName 和email
 
 ```
 git config --global user.name"xxx"
