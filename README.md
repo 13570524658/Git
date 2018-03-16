@@ -1,6 +1,3 @@
-# git
-git使用方法
-
 #git 配置
 
 #####设置git的userName 和email
