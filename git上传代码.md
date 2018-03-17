@@ -27,10 +27,17 @@ git commit -m "上传项目源代码"
 
 ```
 
-//将本地仓库的文件提交到别名为origin的地址的master分支下，-u为第一次提交，需要创建master分支，下次就不需要了  
+将本地仓库的文件提交到别名为origin的地址的master分支下，-u为第一次提交，需要创建master分支，下次就不需要了  
 
 ```
 git push -u origin master  
+
+```
+
+为避免远程仓库的版本比本地仓库的要新，每次使用先进行更新
+
+```
+git pull git@github.com:xxx/xxx.git”
 
 ```
 
