@@ -45,6 +45,7 @@ ssh-add ~/.ssh/id_rsa
 输入ssh git@server，第一次连接会请你确认，输入yesy即可。第二次连接就直接welcome你啦
 
 ```
+
 ssh git@github.com
 
 ```
