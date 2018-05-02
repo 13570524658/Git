@@ -53,6 +53,6 @@ git clone git@github.com:yourname/xxxx.git
 添加 .gitignore 文件之后，每次提交时不会将个人的项目设置信息（例如：末次打开的文件，调试断点等）提交到服务器，在团队开发中非常重要
 
 ```
-cp ~/dev/github/gitignore/Swift.gitignore .gitignore
+cp ~/dev/github/gitignore/Java.gitignore .gitignore
 
 ```
