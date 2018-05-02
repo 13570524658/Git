@@ -40,5 +40,19 @@ git push -u origin master
 git pull git@github.com:xxx/xxx.git”
 
 ```
+克隆项目
 
+```
+git clone git@github.com:yourname/xxxx.git 
 
+```
+
+添加 gitignore ~/dev/github/gitignore/ 是保存 gitignore 的目录
+
+可以从 https://github.com/github/gitignore 获取最新版本的 gitignore 文件
+添加 .gitignore 文件之后，每次提交时不会将个人的项目设置信息（例如：末次打开的文件，调试断点等）提交到服务器，在团队开发中非常重要
+
+```
+cp ~/dev/github/gitignore/Swift.gitignore .gitignore
+
+```
