@@ -37,7 +37,7 @@ git push -u origin master
 为避免远程仓库的版本比本地仓库的要新，每次使用先进行更新
 
 ```
-git pull git@github.com:xxx/xxx.git”
+git pull git@github.com:yourname/xxxx.git 
 
 ```
 克隆项目
