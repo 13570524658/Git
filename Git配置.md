@@ -46,7 +46,7 @@ ssh-add ~/.ssh/id_rsa
 
 ```
 
-ssh git@github.com
+ssh -T git@github.com
 
 ```
 
