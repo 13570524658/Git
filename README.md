@@ -1,5 +1,4 @@
-# Git
-## Git常见错误
+# Git常见错误
 
 #### 解决github上传ssh-key后仍须输入密码的问题
 
