@@ -9,7 +9,7 @@ git config --global user.email "xxx@xx.com"
 
 ```
 
-# ssh key实行免密码登录
+## ssh key实行免密码登录
 
 ##### 检查是否已经有ssh秘钥
 
