@@ -24,9 +24,10 @@ Windows下创建.gitignore创建方法有两种:
 
 ### Android中.gitignore配置内容：
 
-      # Built application files
+     # Built application files
       *.apk
       *.ap_
+      *.aab
 
       # Files for the ART/Dalvik VM
       *.dex
@@ -58,10 +59,35 @@ Windows下创建.gitignore创建方法有两种:
       # Android Studio captures folder
       captures/
 
-      # Intellij
+      # IntelliJ
       *.iml
       .idea/workspace.xml
+      .idea/tasks.xml
+      .idea/gradle.xml
+      .idea/assetWizardSettings.xml
+      .idea/dictionaries
       .idea/libraries
+      .idea/caches
 
       # Keystore files
-      *.jks
+      # Uncomment the following lines if you do not want to check your keystore files in.
+      #*.jks
+      #*.keystore
+
+      # External native build folder generated in Android Studio 2.2 and later
+      .externalNativeBuild
+
+      # Google Services (e.g. APIs or Firebase)
+      google-services.json
+
+      # Freeline
+      freeline.py
+      freeline/
+      freeline_project_description.json
+
+      # fastlane
+      fastlane/report.xml
+      fastlane/Preview.html
+      fastlane/screenshots
+      fastlane/test_output
+      fastlane/readme.md
