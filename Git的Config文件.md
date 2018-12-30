@@ -1,6 +1,7 @@
 #### Git config 文件   
    
-   默认都是这样
+      默认都是这样
+   
       [core]
       repositoryformatversion = 0
       filemode = false
