@@ -32,39 +32,3 @@
 可以从 https://github.com/github/gitignore 获取最新版本的 gitignore 文件
 添加 .gitignore 文件之后，每次提交时不会将个人的项目设置信息（例如：末次打开的文件，调试断点等）提交到服务器，在团队开发中非常重要
 
-```
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
-
-# Android Studio
-.idea/
-.gradle
-/*/local.properties
-/*/out
-build
-/*/*/production
-*.iml
-*.iws
-*.ipr
-*~
-*.swp
-
-```
