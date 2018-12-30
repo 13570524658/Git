@@ -1,6 +1,6 @@
 ##  Android项目配置gitignore 的方法
 
-gitignore 是用于GIT版本控制中忽略制定文件版本更新，比如bin和gen文件夹等
+gitignore 是用于Git版本控制中忽略制定文件版本更新，比如bin和gen文件夹等
 
 配置方法:
 
